@@ -62,7 +62,7 @@ def init_config_options():
         st.selectbox("Select model:", MODELS, key="model_name")
         st.number_input(
             "Select number of context chunks",
-            value=5,
+            value=500,
             key="num_retrieved_chunks",
             min_value=1,
             max_value=1000,
