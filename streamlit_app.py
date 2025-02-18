@@ -228,7 +228,7 @@ def create_prompt(user_question):
     return prompt
 
 def main():
-    st.title(f":speech_balloon: Chatbot with Snowflake Cortex")
+    st.title(f":cup_with_straw: Bottler Order AI Chatbot :cup_with_straw:")
 
     init_service_metadata()
     init_config_options()
